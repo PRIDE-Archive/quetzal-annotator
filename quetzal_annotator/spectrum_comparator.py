@@ -16,12 +16,10 @@ import math
 
 def eprint(*args, **kwargs): print(*args, file=sys.stderr, **kwargs)
 
-from spectrum import Spectrum
-from spectrum_annotator import SpectrumAnnotator
-from proforma_peptidoform import ProformaPeptidoform
-
-sys.path.append("C:\local\Repositories\GitHub\SpectralLibraries\lib")
-from universal_spectrum_identifier import UniversalSpectrumIdentifier
+from .spectrum import Spectrum
+from .spectrum_annotator import SpectrumAnnotator
+from .proforma_peptidoform import ProformaPeptidoform
+from .universal_spectrum_identifier import UniversalSpectrumIdentifier
 
 
 # Define column offsets for peak_list. This dict-like behavior is a bit more efficient than using actual dicts

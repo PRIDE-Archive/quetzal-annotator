@@ -3,7 +3,7 @@ import sys
 import argparse
 def eprint(*args, **kwargs): print(*args, file=sys.stderr, **kwargs)
 
-from spectrum import Spectrum
+from .spectrum import Spectrum
 
 DEBUG = False
 
