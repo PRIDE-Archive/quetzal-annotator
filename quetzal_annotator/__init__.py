@@ -15,10 +15,6 @@ This package provides:
 - Publication-quality spectrum visualization
 """
 
-__version__ = "0.1.0"
-__author__ = "Quetzal Annotator Team"
-__email__ = "quetzal-annotator@example.com"
-
 # Import main classes for easy access
 from .spectrum import Spectrum
 from .spectrum_annotator import SpectrumAnnotator
